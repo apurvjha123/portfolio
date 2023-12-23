@@ -74,6 +74,25 @@ const Contact = () => {
     <Navbar/>
     <section className="bg-sky-50">
     <div className='relative flex lg:flex-row flex-col max-container'>
+    <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
+        <Canvas
+          camera={{
+            position: [0, 0, 5],
+            fov: 75,
+            near: 0.1,
+            far: 1000,
+          }}
+        >
+          
+          <ambientLight intensity={0.5} />
+          
+          <Avatar 
+          position={[0.5, -3, 0]}
+          rotation={[-Math.PI/2, -Math.PI/2+1.5, 0]}
+          scale={[3, 3, 3]}
+          />
+        </Canvas>
+      </div>
       {alert.show && <Alert {...alert} />}
 
       <div className='flex-1 min-w-[50%] flex flex-col'>
@@ -136,25 +155,7 @@ const Contact = () => {
         </form>
       </div>
 
-      <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
-        <Canvas
-          camera={{
-            position: [0, 0, 5],
-            fov: 75,
-            near: 0.1,
-            far: 1000,
-          }}
-        >
-          
-          <ambientLight intensity={0.5} />
-          
-          <Avatar 
-          position={[0.5, -3, 0]}
-          rotation={[-Math.PI/2, -Math.PI/2+1.5, 0]}
-          scale={[3, 3, 3]}
-          />
-        </Canvas>
-      </div>
+      
     </div>
     </section>
     </>
