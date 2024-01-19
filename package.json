@@ -13,7 +13,7 @@
     "@react-three/drei": "^9.75.0",
     "@react-three/fiber": "^8.13.3",
     "@react-three/postprocessing": "^2.7.1",
-    "chit-chat-react": "^1.0.3",
+    "chit-chat-react": "^1.0.4",
     "dotenv": "^16.3.1",
     "gsap": "^3.11.5",
     "lamina": "^1.1.23",
