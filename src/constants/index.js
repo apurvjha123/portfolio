@@ -120,18 +120,18 @@ export const skills = [
 export const experiences = [
   {
     title: "Internship",
-    company_name: "CodeClause",
+    company_name: "Edutitian Venture",
     icon: codeclause,
     iconBg: "#accbe1",
-    date: "July 2023 - August 2023",
+    date: "May 2024 - July 2024",
     points: [
-      "Utilized backend technologies such as Express.js and delved into API development to enhance the functionality and responsiveness of the applications.",
-      "Implemented responsive design principles, ensuring seamless user experiences across various devices and screen sizes.",
-      "Conducted thorough testing and debugging to identify and resolve software defects, improving overall application performance and reliability.",
+      "My primary responsibilities included developing and managing the backend using Node.js, Express, and MongoDB. I worked on creating robust APIs to handle various operations and seamlessly connected these APIs with a React.js frontend.",
+      "Designed and implemented server-side logic using Node.js and Express. Created APIs to handle CRUD (Create, Read, Update, Delete) operations. Ensured proper routing and middleware integration for security, logging, and error handling.",
+      "Set up and managed MongoDB databases. Designed and implemented schema using Mongoose for efficient data storage and retrieval.",
     ],
   },
   {
-    title: "Founder of ChitChat",
+    title: "Owner Of ChitChat",
     company_name: "Chit Chat",
     icon: chitchat,
     iconBg: "#b7e4c7",
