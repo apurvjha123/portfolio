@@ -11,8 +11,9 @@ function App() {
     <>
     <BrowserRouter>
     <ChatBot 
-    apiKey= "$2b$10$40E9Y5wdMJ.b1H2z8F8bRuR8rhTF3napJbwx9CAgTTickdiQ8aEP."
+    apiKey= "$2b$10$bcMgrqGFSqW.eiye/pChwOmDqJtAJ92fMBtOI72j9vlJqFWzXPDrq"
     chatbotTitle= "Chat bot"
+    LLM= "Gemini"
     initialMessage= "Hello! How Can I Assist You ?"
     brandImage ="https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle-thumbnail.png"
     suggestions ={["who is apurv", "show some of his projects", "his work experiences"]}

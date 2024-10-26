@@ -867,10 +867,10 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chit-chat-react@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/chit-chat-react/-/chit-chat-react-1.0.4.tgz"
-  integrity sha512-Y4d6wUWny1OPaoqaHzU0ej6WKFVWrXpIrk3QEDx5e48CxW96kByKWbVYG9d1snHZsTfgN987Sv+NGCbZ54zXIw==
+chit-chat-react@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.npmjs.org/chit-chat-react/-/chit-chat-react-1.0.7.tgz"
+  integrity sha512-hZWVO6kqV2Pc0R5ydMviua4y/VKmjBVyKvzVETPYFvt01uNfrConbtjKtv8mxb0z2LihaImmNUSzhIBrT4WtIQ==
   dependencies:
     "@types/react" "^18.2.33"
     "@types/react-dom" "^18.2.14"
